@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foam 3</title>
+    <link rel="stylesheet" href="./style3.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="title-container">
+        <h2 class="title">Book your appointment now</h2>
+        <p class="subtitle">So our team can reach out to you on time</p>
+      </div>
+      <form>
+        <div class="grid-container">
+          <div class="left-container">
+            <!-- Full Name -->
+            <div class="name">
+              <label for="name">Full Name</label>
+              <input type="text" name="fullname" placeholder="eg: John Doe" />
+            </div>
+            <!-- Email -->
+            <div class="email">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                placeholder="eg: John@email.com"
+              />
+            </div>
+            <!-- Phone Number -->
+            <div class="phonenumber">
+              <label for="phone">Phone Number</label>
+              <select class="select-number">
+                <option value="+971">+971</option>
+                <option value="+1">+1</option>
+                <option value="+82">+82</option>
+              </select>
+              <input type="tel" name="phonenumber" placeholder="543210987" />
+            </div>
+          </div>
+
+          <div class="right-container">
+            <div class="availbaledate">
+              <!-- Available Date -->
+              <label for="date">Available Date</label>
+              <select class="select-date">
+                <option value="" disabled selected>Select</option>
+                <option value="2025/02/07">2025/02/07</option>
+                <option value="2025/02/08">2025/02/08</option>
+                <option value="2025/02/09">2025/02/09</option>
+                <option value="2025/02/10">2025/02/10</option>
+              </select>
+            </div>
+            <div class="message">
+              <!-- Share Your Message -->
+              <label for="message">Share Your Message</label>
+              <textarea
+                name="message"
+                rows="15"
+                cols="50"
+                placeholder="Message"
+              ></textarea>
+            </div>
+          </div>
+        </div>
+      </form>
+      <!-- Button -->
+      <div class="button-container">
+        <button class="submit" type="submit">Book Now &rarr;</button>
+      </div>
+    </div>
+  </body>
+</html>

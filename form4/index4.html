@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foam 4</title>
+    <link rel="stylesheet" href="/form4/style4.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="title-container">
+        <h2 class="title">Job Application ( Web )</h2>
+      </div>
+      <form>
+        <div class="grid-container">
+          <!-- first-container : firstname / lastname / email / jobrole -->
+          <div class="first-container">
+            <div class="firstname">
+              <label for="firstname">First Name</label>
+              <input
+                type="text"
+                name="firstname"
+                placeholder="Enter First Name......."
+              />
+            </div>
+            <div class="lastname">
+              <label for="lastname">Last Name</label>
+              <input
+                type="text"
+                name="lastname"
+                placeholder="Enter Last Name......."
+              />
+            </div>
+            <div class="email">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter Email......."
+              />
+            </div>
+            <div class="jobrole">
+              <label for="jobrole">Job Role</label>
+              <select class="select-jobrole">
+                <option value="Backend Developer">Backend Developer</option>
+                <option value="Frontend Developer">Frontend Developer</option>
+                <option value="UI Designer">UI Designer</option>
+                <option value="UX Designer">UX Designer</option>
+              </select>
+            </div>
+          </div>
+          <!-- second-container : enteraddress -->
+          <div class="second-container">
+            <div class="enteraddress">
+              <label for="message">Enter Address</label>
+              <textarea name="message" rows="5" cols="50"></textarea>
+            </div>
+          </div>
+          <!-- third-container : city / pincode / startdate / uploadcv -->
+          <div class="third-container">
+            <div class="city">
+              <label for="city">City</label>
+              <input type="text" name="city" placeholder="Enter City......." />
+            </div>
+            <div class="pincode">
+              <label for="pincode">Pincode</label>
+              <input
+                type="text"
+                name="pincode"
+                placeholder="Enter Pincode......."
+              />
+            </div>
+            <div class="startdate">
+              <label for="startdate">Start Date</label>
+              <input type="text" value="30/12/2021" readonly />
+            </div>
+            <div class="uploadcv">
+              <label for="uploadcv">Upload Your CV</label>
+              <div class="file-input-container">
+                <button class="choosefile">Choose File</button>
+                <input type="text" value="Ajit_Doval.jpg" readonly />
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+
+      <div class="button-container">
+        <button class="submit" type="submit">Apply Now</button>
+      </div>
+    </div>
+  </body>
+</html>

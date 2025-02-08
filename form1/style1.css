@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700&display=swap");
+
+body {
+  font-family: Inter, sans-serif;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  width: 598px;
+  height: 495px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background-color: rgba(22, 42, 227, 0.85);
+}
+
+.form-content {
+  position: relative;
+  display: grid;
+  text-align: center;
+  color: #ffffff;
+  width: 441px;
+  height: 303px;
+}
+
+h1 {
+  font-size: 37px;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.contact-form {
+  display: grid;
+  gap: 10px;
+}
+
+input {
+  padding: 15px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.input-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 15px;
+}
+
+.input-group .name {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.input-group .email {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.input-group .phone {
+  grid-column: span 2;
+  grid-row: 2;
+}
+
+button {
+  margin-top: 40px;
+  width: 127px;
+  height: 47px;
+  grid-column: span 1;
+  padding: 12px;
+  background: white;
+  color: blue;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background: #ddd;
+}

@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #dcdcdc;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-container {
+  width: 85%;
+  height: 75%;
+  padding: 40px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title-container {
+  text-align: left;
+  color: #111827;
+}
+
+.title {
+  font-size: 32px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 200px;
+}
+
+.left-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.right-container {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  gap: 20px;
+}
+
+label {
+  font-size: 18px;
+}
+
+input {
+  background-color: #f6f9ff;
+  border: none;
+  border-radius: 5px;
+  width: 400px;
+  height: 40px;
+  padding: 0 0 0 5px;
+}
+
+input::placeholder {
+  color: #c8c8c8;
+}
+
+.select-number {
+  background-color: #f6f9ff;
+  border: none;
+  border-radius: 5px;
+  width: 50px;
+  height: 40px;
+}
+
+.select-date {
+  background-color: #f6f9ff;
+  border: none;
+  border-radius: 5px;
+  width: 400px;
+  height: 40px;
+  padding: 0 0 0 5px;
+}
+
+textarea {
+  background-color: #f6f9ff;
+  border: none;
+  border-radius: 5px;
+  width: 390px;
+  height: 180px;
+  padding: 10px 0 0 10px;
+}
+
+textarea::placeholder {
+  color: #111827;
+}
+
+.name,
+.email,
+.phonenumber,
+.availbaledate,
+.message {
+  position: relative;
+  display: block;
+  top: 40px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+.select-number,
+.select-date,
+textarea {
+  display: block;
+}
+
+.phonenumber {
+  white-space: nowrap;
+}
+
+.select-number {
+  display: inline-block;
+  width: 70px;
+  vertical-align: middle;
+}
+
+input[name="phonenumber"] {
+  display: inline-block;
+  width: 325px;
+  vertical-align: middle;
+}
+
+.button-container {
+  margin-top: 80px;
+  margin-right: 145px;
+  text-align: right;
+}
+
+.submit {
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 5px;
+  width: 154px;
+  height: 42px;
+  color: #ffffff;
+  font-size: 16px;
+}

@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-container {
+  width: 85%;
+  height: 75%;
+  padding: 20px;
+  background-color: #fcfcfc;
+  border-radius: 12px;
+  border: 1px solid #eddede;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  margin-top: 0;
+}
+
+.grid-container {
+  height: 340px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.first-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+
+.third-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  border-radius: 3px;
+  border: 1px solid #d2d2d2;
+  padding-left: 20px;
+  width: 500px;
+  height: 30px;
+}
+
+input ::placeholder {
+  color: #7e7e7e;
+}
+
+.select-jobrole {
+  width: 523px;
+  height: 35px;
+  padding-left: 20px;
+  border-radius: 3px;
+  border: 1px solid #d2d2d2;
+}
+
+textarea {
+  width: 1170px;
+  border-radius: 3px;
+  border: 1px solid #d2d2d2;
+}
+
+.button-container {
+  text-align: right;
+  margin-top: 110px;
+}
+
+.file-input-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  border: 1px solid #d2d2d2;
+  border-radius: 3px;
+  width: 520px;
+  overflow: hidden;
+  background-color: white;
+  height: 25px;
+  padding-bottom: 10px;
+}
+
+.file-input-container input {
+  border: none;
+  padding: 8px;
+  font-size: 14px;
+  background: white;
+  width: 100%;
+  outline: none;
+}
+
+.submit {
+  border-radius: 3px;
+  border: none;
+  background-color: #1b52df;
+  color: #fffefe;
+  font-size: 30px;
+  width: 250px;
+  height: 70px;
+}
